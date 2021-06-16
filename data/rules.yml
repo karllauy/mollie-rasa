@@ -1,15 +1,15 @@
 version: "2.0"
 
 rules:
-  - rule: intro/greet
+  - rule: intro_greet
     steps:
-      - intent: intro/greet
-      - action: utter_intro/greet
+      - intent: intro_greet
+      - action: utter_intro_greet
 
-  - rule: intro/self_intro
+  - rule: intro_self_intro
     steps:
-      - intent: intro/self_intro
-      - action: utter_intro/self_intro
+      - intent: intro_self_intro
+      - action: utter_intro_self_intro
 
   - rule: plan_date
     steps:
@@ -36,22 +36,22 @@ rules:
       - intent: harassment
       - action: utter_harassment
 
-  - rule: scam/money
+  - rule: scam_money
     steps:
-      - intent: scam/money
-      - action: utter_scam/money
+      - intent: scam_money
+      - action: utter_scam_money
 
-  - rule: scam/personal_details
+  - rule: scam_personal_details
     steps:
-      - intent: scam/personal_details
-      - action: utter_scam/personal_details
+      - intent: scam_personal_details
+      - action: utter_scam_personal_details
 
-  - rule: scam/sales
+  - rule: scam_sales
     steps:
-      - intent: scam/sales
-      - action: utter_scam/sales
+      - intent: scam_sales
+      - action: utter_scam_sales
 
-  - rule: suggest/topics
+  - rule: suggest_topics
     steps:
-      - intent: suggest/topics
-      - action: utter_suggest/topics
+      - intent: suggest_topics
+      - action: utter_suggest_topics

@@ -1,23 +1,23 @@
 version: "2.0"
 
 intents:
-  - intro/greet
-  - intro/self_intro
+  - intro_greet
+  - intro_self_intro
   - plan_date
   - joke
   - know_each_other
   - play_game
   - harassment
-  - scam/money
-  - scam/personal_details
-  - scam/sales
-  - suggest/topics
+  - scam_money
+  - scam_personal_details
+  - scam_sales
+  - suggest_topics
 
 responses:
-  utter_intro/greet:
+  utter_intro_greet:
     - text: "intent: greet"
 
-  utter_intro/self_intro:
+  utter_intro_self_intro:
     - text: "intent: self_intro"
 
   utter_plan_date:
@@ -35,17 +35,17 @@ responses:
   utter_harassment:
     - text: "intent: harassment"
 
-  utter_scam/money:
-    - text: "intent: scam/money"
+  utter_scam_money:
+    - text: "intent: scam_money"
 
-  utter_scam/personal_details:
-    - text: "intent: scam/personal_details"
+  utter_scam_personal_details:
+    - text: "intent: scam_personal_details"
 
-  utter_scam/sales:
-    - text: "intent: scam/sales"
+  utter_scam_sales:
+    - text: "intent: scam_sales"
 
-  utter_suggest/topics:
-    - text: "intent: suggest/topics"
+  utter_suggest_topics:
+    - text: "intent: suggest_topics"
 
 session_config:
   session_expiration_time: 60

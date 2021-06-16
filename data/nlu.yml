@@ -1,7 +1,7 @@
 version: "2.0"
 
 nlu:
-  - intent: intro/greet
+  - intent: intro_greet
     examples: |
       - hey
       - hello
@@ -9,15 +9,16 @@ nlu:
       - hello there
       - good morning
       - good evening
-      - moin
+      - good afternoon
       - hey there
       - let's go
       - hey dude
-      - goodmorning
-      - goodevening
-      - good afternoon
+      - How are you
+      - What's up
+      - How are you doing
+      - Yo
 
-  - intent: intro/self_intro
+  - intent: intro_self_intro
     examples: |
       - My name is [Nick]("person_name"), nice to meet you!
       - Hi! I am [Jeff]("person_name").
@@ -64,6 +65,8 @@ nlu:
       - I have [kids]("family").
       - I love playing [basketball]("sports")
       - I play [badminton]("sports") every week with my friends.
+      - I going [jogging]("outdoors") everyday.
+      - I [jog]("outdoors") when i'm free.
       - What would you do at weekend?
       - Which [Netflix]("tv") series are you watching?
       - What is your favorite [TV show]("tv")?
@@ -97,7 +100,7 @@ nlu:
       - you are pissing me off
       - I don't like that
 
-  - intent: scam/money
+  - intent: scam_money
     examples: |
       - Transfer to this account
       - Give me your bank account number
@@ -108,7 +111,7 @@ nlu:
       - What's your PIN
       - I need your password
 
-  - intent: scam/personal_details
+  - intent: scam_personal_details
     examples: |
       - What's your ID number?
       - What's your address?
@@ -116,7 +119,7 @@ nlu:
       - Your passport number
       - I need your phone number now
 
-  - intent: scam/sales
+  - intent: scam_sales
     examples: |
       - Please help me to buy this package
       - I need you to purchase this for me
@@ -125,7 +128,7 @@ nlu:
       - We're on discount
       - I can give you discount
 
-  - intent: suggest/topics
+  - intent: suggest_topics
     examples: |
       - I am bored
       - I don't know what to talk about
