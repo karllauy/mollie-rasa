@@ -1,0 +1,159 @@
+version: "2.0"
+
+nlu:
+  - intent: intro/greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - moin
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+
+  - intent: intro/self_intro
+    examples: |
+      - My name is [Nick]("person_name"), nice to meet you!
+      - Hi! I am [Jeff]("person_name").
+      - This is [Samantha]("person_name"), hello!
+      - I am an [engineer]("profession").
+      - My job is [sales manager]("occupation").
+
+  - intent: plan_date
+    examples: |
+      - Do you want to have [lunch]("meal") together?
+      - Do you want to grab [lunch]("meal") tomorrow?
+      - Let's go for [dinner]("meal")!
+      - Let's go out for a meal this weekend!
+      - Let's [grab a drink]("activity")
+      - I'd love to go [shopping]("activity") on the coming holiday!
+      - We should [watch a movie]("activity") next time!
+      - We can go [hiking]("activity") today
+      - We should plan our next date!
+
+  - intent: joke
+    examples: |
+      - Let me tell you something funny
+      - Do you want to hear a joke
+      - Cheer up!
+      - Tell me a joke
+      - Tell me something funny
+      - Make me laugh
+      - My friend told me a funny story
+      - Wanna hear an interesting news?
+
+  - intent: know_each_other
+    examples: |
+      - Do you have any [brothers]("family") or sisters["family"]?
+      - I have two [brothers]("family").
+      - I have [kids]("family").
+      - Do you like [listening to music]("hobby")?
+      - Do you [play instruments]("hobby")?
+      - I love playing [basketball]("sports")
+      - I play [badminton]("sports") every week with my friends.
+      - Do you play [sports]("sports")?
+      -
+
+  - intent: play_game
+    examples: |
+      -
+
+  - intent: harassment
+    examples: |
+      -
+
+  - intent: scam/money
+    examples: |
+      -
+
+  - intent: scam/personal_details
+    examples: |
+      -
+
+  - intent: scam/sales
+    examples: |
+      -
+
+  - intent: suggest/topics
+    examples: |
+      -
+
+  - intent: goodbye
+    examples: |
+      - good afternoon
+      - cu
+      - good by
+      - cee you later
+      - good night
+      - bye
+      - goodbye
+      - have a nice day
+      - see you around
+      - bye bye
+      - see you later
+
+  - intent: affirm
+    examples: |
+      - yes
+      - y
+      - indeed
+      - of course
+      - that sounds good
+      - correct
+
+  - intent: deny
+    examples: |
+      - no
+      - n
+      - never
+      - I don't think so
+      - don't like that
+      - no way
+      - not really
+
+  - intent: mood_great
+    examples: |
+      - perfect
+      - great
+      - amazing
+      - feeling like a king
+      - wonderful
+      - I am feeling very good
+      - I am great
+      - I am amazing
+      - I am going to save the world
+      - super stoked
+      - extremely good
+      - so so perfect
+      - so good
+      - so perfect
+
+  - intent: mood_unhappy
+    examples: |
+      - my day was horrible
+      - I am sad
+      - I don't feel very well
+      - I am disappointed
+      - super sad
+      - I'm so sad
+      - sad
+      - very sad
+      - unhappy
+      - not good
+      - not very good
+      - extremly sad
+      - so saad
+      - so sad
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
