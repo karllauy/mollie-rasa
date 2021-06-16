@@ -20,27 +20,28 @@ nlu:
 
   - intent: intro_self_intro
     examples: |
-      - My name is [Nick](person_name), nice to meet you!
-      - Hi! I am [Jeff](person_name).
-      - This is [Samantha](person_name), hello!
-      - I am an [engineer](profession).
-      - My job is [sales manager]("occupation").
+      - My name is Nick, nice to meet you!
+      - Hi! I am Jeff.
+      - This is Samantha, hello!
+      - I am an engineer.
+      - I am a teacher.
+      - My job is sales manager.
 
   - intent: plan_date
     examples: |
       - Are you doing anything this weekend?
       - Are you free tomorrow?
       - Do you want to hangout?
-      - Do you want to have [lunch](meal) together?
-      - Do you want to grab [lunch](meal) tomorrow?
-      - Do you wanna [Netflix and chill](date) ?
-      - Let's go for [dinner](meal)!
+      - Do you want to have lunch together?
+      - Do you want to grab lunch tomorrow?
+      - Do you wanna Netflix and chill?
+      - Let's go for dinner!
       - Let's go out for a meal this weekend!
-      - Let's [grab a drink](date)
-      - Let us [explore the city](outdoors)
-      - I'd love to go [shopping](shopping) on the coming holiday!
-      - We should [watch a movie](movie) next time!
-      - We can go [hiking](outdoors) today
+      - Let's grab a drink.
+      - Let us explore the city
+      - I'd love to go shopping on the coming holiday!
+      - We should watch a movie next time!
+      - We can go hiking today
       - We should plan our next date!
 
   - intent: joke
@@ -60,21 +61,21 @@ nlu:
       - What's your name?
       - What is your name?
       - How should i call you?
-      - Do you have any [brothers](family) or [sisters](family)?
-      - Do you like [listening to music](hobby)?
-      - Do you [play instruments](hobby)?
-      - Do you play [sports](sports)?
-      - I have two [brothers](family).
-      - I have [kids](family).
-      - I love playing [basketball](sports)
-      - I play [badminton](sports) every week with my friends.
-      - I going [jogging](outdoors) everyday.
-      - I [jog](outdoors) when i'm free.
+      - Do you have any brothers or sisters?
+      - Do you like listening to music?
+      - Do you play instruments?
+      - Do you play sports?
+      - I have two brothers.
+      - I have kids.
+      - I love playing basketball
+      - I play badminton every week with my friends.
+      - I going jogging everyday.
+      - I jog when i'm free.
       - What would you do at weekend?
-      - Which [Netflix](tv) series are you watching?
-      - What is your favorite [TV show](tv)?
-      - How often do you go [hiking](activity)?
-      - What's your favorite [restaurant](meal)?
+      - Which Netflix series are you watching?
+      - What is your favorite TV show?
+      - How often do you go hiking?
+      - What's your favorite restaurant?
 
   - intent: play_game
     examples: |
@@ -101,7 +102,6 @@ nlu:
       - stop it
       - shut up
       - you are pissing me off
-      - I don't like that
 
   - intent: scam_money
     examples: |
