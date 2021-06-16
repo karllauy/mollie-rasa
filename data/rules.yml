@@ -1,13 +1,57 @@
 version: "2.0"
 
 rules:
+  - rule: intro/greet
+    steps:
+      - intent: intro/greet
+      - action: utter_intro/greet
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - rule: intro/self_intro
+    steps:
+      - intent: intro/self_intro
+      - action: utter_intro/self_intro
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - rule: plan_date
+    steps:
+      - intent: plan_date
+      - action: utter_plan_date
+
+  - rule: joke
+    steps:
+      - intent: joke
+      - action: utter_joke
+
+  - rule: know_each_other
+    steps:
+      - intent: know_each_other
+      - action: utter_know_each_other
+
+  - rule: play_game
+    steps:
+      - intent: play_game
+      - action: utter_play_game
+
+  - rule: harassment
+    steps:
+      - intent: harassment
+      - action: utter_harassment
+
+  - rule: scam/money
+    steps:
+      - intent: scam/money
+      - action: utter_scam/money
+
+  - rule: scam/personal_details
+    steps:
+      - intent: scam/personal_details
+      - action: utter_scam/personal_details
+
+  - rule: scam/sales
+    steps:
+      - intent: scam/sales
+      - action: utter_scam/sales
+
+  - rule: suggest/topics
+    steps:
+      - intent: suggest/topics
+      - action: utter_suggest/topics

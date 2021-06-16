@@ -1,33 +1,51 @@
 version: "2.0"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - intro/greet
+  - intro/self_intro
+  - plan_date
+  - joke
+  - know_each_other
+  - play_game
+  - harassment
+  - scam/money
+  - scam/personal_details
+  - scam/sales
+  - suggest/topics
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_intro/greet:
+    - text: "intent: greet"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_intro/self_intro:
+    - text: "intent: self_intro"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_plan_date:
+    - text: "intent: plan_date"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_joke:
+    - text: "intent: joke"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_know_each_other:
+    - text: "intent: know_each_other"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_play_game:
+    - text: "intent: play_game"
+
+  utter_harassment:
+    - text: "intent: harassment"
+
+  utter_scam/money:
+    - text: "intent: scam/money"
+
+  utter_scam/personal_details:
+    - text: "intent: scam/personal_details"
+
+  utter_scam/sales:
+    - text: "intent: scam/sales"
+
+  utter_suggest/topics:
+    - text: "intent: suggest/topics"
 
 session_config:
   session_expiration_time: 60
