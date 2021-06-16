@@ -57,6 +57,9 @@ nlu:
 
   - intent: know_each_other
     examples: |
+      - What's your name?
+      - What is your name?
+      - How should i call you?
       - Do you have any [brothers]("family") or sisters["family"]?
       - Do you like [listening to music]("hobby")?
       - Do you [play instruments]("hobby")?
