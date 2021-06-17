@@ -1,31 +1,42 @@
 version: "2.0"
 
 nlu:
-  - intent: intro_greet
+  - intent: greeting
     examples: |
       - hey
       - hello
       - hi
       - hello there
+      - hi there
       - good morning
       - good evening
       - good afternoon
       - hey there
-      - let's go
       - hey dude
       - How are you
-      - What's up
-      - How are you doing
+      - How are you?
+      - What's up?
+      - How are you doing?
       - Yo
 
-  - intent: intro_self_intro
+  - intent: sself_intro
     examples: |
       - My name is Nick, nice to meet you!
+      - My name is Nick
       - Hi! I am Jeff.
+      - I am Jeff
       - This is Samantha, hello!
+      - This is Tom
       - I am an engineer.
-      - I am a teacher.
+      - I am a teacher
+      - I'm a police
+      - I'm a software engineer
       - My job is sales manager.
+      - I am working in Google
+      - I'm working in Facebook
+      - I am working in a local company
+      - I am a manager in a restaurant
+      - I work at a restaurant
 
   - intent: plan_date
     examples: |
@@ -54,6 +65,7 @@ nlu:
       - Make me laugh
       - My friend told me a funny story
       - Wanna hear an interesting news?
+      - haha!
       - haha
 
   - intent: know_each_other
@@ -67,7 +79,7 @@ nlu:
       - Do you play sports?
       - I have two brothers.
       - I have kids.
-      - I love playing basketball
+      - I love playing basketball 
       - I play badminton every week with my friends.
       - I going jogging everyday.
       - I jog when i'm free.
@@ -76,6 +88,7 @@ nlu:
       - What is your favorite TV show?
       - How often do you go hiking?
       - What's your favorite restaurant?
+      - What would you do after you're off working?
 
   - intent: play_game
     examples: |
@@ -113,6 +126,7 @@ nlu:
       - Could you pay me first
       - What's your PIN
       - I need your password
+      - Give me the verification code
 
   - intent: scam_personal_details
     examples: |
@@ -128,16 +142,15 @@ nlu:
       - I need you to purchase this for me
       - Are you interested in buying?
       - Please buy
-      - We're on discount
-      - I can give you discount
+      - We're on sales
+      - I can give you a discount
 
   - intent: suggest_topics
     examples: |
-      - I am bored
+      - I feel bored
+      - bored
+      - boring
       - I don't know what to talk about
-      - I need some topics for the conversation
+      - I need some topics
       - The weather is good
-      - I am new to this
       - This is my first match
-      - This is the first time I'm doing this
-      - I am new to this

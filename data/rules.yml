@@ -1,15 +1,15 @@
 version: "2.0"
 
 rules:
-  - rule: intro_greet
+  - rule: greeting
     steps:
-      - intent: intro_greet
-      - action: utter_intro_greet
+      - intent: greeting
+      - action: utter_greeting
 
-  - rule: intro_self_intro
+  - rule: self_intro
     steps:
-      - intent: intro_self_intro
-      - action: utter_intro_self_intro
+      - intent: self_intro
+      - action: utter_self_intro
 
   - rule: plan_date
     steps:

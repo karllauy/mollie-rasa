@@ -1,8 +1,8 @@
 version: "2.0"
 
 intents:
-  - intro_greet
-  - intro_self_intro
+  - greeting
+  - self_intro
   - plan_date
   - joke
   - know_each_other
@@ -14,10 +14,10 @@ intents:
   - suggest_topics
 
 responses:
-  utter_intro_greet:
+  utter_greeting:
     - text: "intent: greet"
 
-  utter_intro_self_intro:
+  utter_self_intro:
     - text: "intent: self_intro"
 
   utter_plan_date:
